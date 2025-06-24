@@ -1,0 +1,17 @@
+REPORT ON ANALYSIS OF PHISHING E-MAILS
+
+> Email Phishing sample:
+ - Email sample from Google Mail(gmail)
+
+> Examine the sender's address for spoofing:
+ - examined the sender's details by clicking on option 'show details'.
+
+> Check Email header:
+ - analysis of email header by using 'Email Header Analyzer' fetch the details about the nature of mail. The mail shows 'DMRAC policy not enabled'. In Gmail: Click "Show original" to view SPF, DKIM, DMARC. If any of these FAIL, the email is suspicious.
+
+> Identify suspicious links or attachments:
+ - any attachement can be  verified by using tools like-VirusTotal, PhishTool, Google safe browsing, etc.
+
+> Others:
+ - Generic greetings like "Dear user" or "Dear customer" can be red flags. Real services often use your real name.
+ - Watch for urgency: Ex- ("Your account will be suspended!") or fear tactics. Poor grammar or strange sentence structure is common in phishing. Watch for Fake Logos or Signatures. Phishing emails may use stolen or blurry brand logos. Check if contact details are missing or incorrect.
